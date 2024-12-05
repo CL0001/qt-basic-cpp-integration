@@ -1,0 +1,5 @@
+module BeginnerImplementation
+typeinfo appBeginnerImplementation.qmltypes
+prefer :/qt/qml/BeginnerImplementation/
+Main 1.0 Main.qml
+

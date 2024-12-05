@@ -1,0 +1,65 @@
+# Qt build directories
+build-*/
+
+# Qt Creator IDE files
+*.pro.user
+*.pro.user.*
+*.creator.user
+*.creator.user.*
+*.autosave
+*.qmlproject.user
+
+# Intermediate or temporary files
+*.moc
+*.obj
+*.o
+*.so
+*.dll
+*.dylib
+*.qrc
+*.qtc
+*.qmake.stash
+*.qmake.cache
+*.swp
+
+# Backup files
+*.bak
+*.orig
+
+# Log files
+*.log
+
+# Compiled output
+*.exe
+*.app
+*.a
+*.lib
+
+# CMake and Makefiles
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Generated resources
+qrc_*.cpp
+ui_*.h
+
+# Debugging and profiling
+*.gcno
+*.gcda
+*.gcov
+
+# VS Code settings (if applicable)
+.vscode/
+
+# MacOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+desktop.ini
+
+# QtWebEngine cache
+qtwebengine_dictionaries/
+qtwebengine_locales/
